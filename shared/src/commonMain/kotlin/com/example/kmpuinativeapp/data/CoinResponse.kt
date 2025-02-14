@@ -13,7 +13,5 @@ data class CoinResponse(
     val isNew: Boolean,
     @SerialName("is_active")
     val isActive: Boolean,
-    val type: String
+    val type: String,
 )
-
-
